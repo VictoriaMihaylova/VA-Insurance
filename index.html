@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="VA Insurance, лидер на пазара на застраховки. Предлага имуществени, автомобилни и медицински застраховки.">
+    <meta name="keywords" content="застраховки, гражданска, автокаско, имущество, живот">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="images/iconVA.png">
+    <title>VA Insurance</title>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="cent-item">
+                <a href="index.html">
+                <img src="images/logoVA1.png" alt="VA Insurance лого" class="logo"/>
+                <span><h3> Застрахователно дружество VA Insurance </h3></span>
+                </a>
+            </div>
+            <nav>
+                <div class="rightnav">
+                    <ul class="menu">
+                        <li class="menu"><a id="menu1" href="index.html" class="activeb">Начало</a></li>
+                        <li class="menu"><a id="menu2" href="about.html">За нас</a></li>
+                        <li class="menu"><a id="menu3" href="insurances.html" >Застраховки</a></li>
+                        <li class="menu"><a id="menu4" href="news.html">Новини</a></li>
+                        <li class="menu"><a id="menu5" href="contacts.html">Контакти</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="slideshow-container">
+                <div class="mySlides fade cover"> <img src="images/HomeIns.jpg" class="coverimg" alt="Корица" >
+                    <div class="textoncover">
+                        <blockquote>ГРИЖА ЗА ВАШИЯ ДОМ</blockquote>
+                        <div class="button"><a href="homeinsurance.html" class="button" data-target="vmenu2" onclick="setTarget('vmenu2')">Изберете</a></div>
+                    </div>
+                </div>
+                <div class="mySlides fade cover"> <img src="images/CarIns.jpg" class="coverimg" alt="Корица">
+                    <div class="textoncover">
+                        <blockquote>ГРИЖА ЗА ВАШАТА КОЛА</blockquote>
+                        <div class="button"><a href="carinsurance.html" class="button" data-target="vmenu3" onclick="setTarget('vmenu3')">Изберете</a></div>
+                    </div>
+                </div>
+                <div class="mySlides fade cover"> <img src="images/HealthIns.jpg" class="coverimg" alt="Корица">
+                    <div class="textoncover">
+                        <blockquote>ГРИЖА ЗА ВАШЕТО ЗДРАВЕ</blockquote>
+                        <div class="button"><a href="healthinsurance.html" class="button" data-target="vmenu4" onclick="setTarget('vmenu4')">Изберете</a></div>
+                    </div>
+                </div>
+                <div class="dot-container"> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </header>
+
+        <div class="row">
+            <div class="hsize">
+                <h2><img src="images/logoVA1.png" width="58" height="40" alt="Лого"  /> За нас</h2>
+                <hr class="hr-short"/>
+            </div>
+        </div>
+        <div class="about"> <img src="images/BusinessTeam.jpg"  alt="За нас" class="imgleft"/>
+            <p class="pabout">Застрахователна Компания VA Insurance e на българския пазар от 2004 година и е един от лидерите в областта застраховането в България. Дружеството е специализирано в предоставянето най-вече на здравни услуги, насочени към нуждите както на корпоративни, така и на индивидуални клиенти. Компанията е един от най-динамично развиващите се застрахователи на пазара. VA Insurance e част от Асоциацията на българските застрахователи, Германо-Българската индустриално-търговска камара (ГБИТК) и Британско-българската бизнес асоциация (БББА).</p>
+            <div class="row pxafter"><a href="about.html" class="button2">Повече...</a></div>
+        </div>
+        
+        <div class="row">
+            <div class="hsize">
+                <h2><img src="images/logoVA1.png" width="58" height="40" alt="VA Insurance лого" /> Нашите продукти</h2>
+                <hr class="hr-short"/>
+            </div>
+            <div class="activities">
+                <img src="images/home_html.png"  alt="Имуществена застарховка" class="activity-icon">
+                <h3>Имуществена застраховка</h3>
+                <hr class="activitieshr"/>
+                <p class="p_activities">Застрахователна защита на движимото или недвижимо имущество</p>
+                <div class="button2"><a href="homeinsurance.html" class="button2" data-target="vmenu2" onclick="setTarget('vmenu2')">Повече...</a></div>
+            </div>
+            <div class="activities">
+                <img src="images/car_html.png"  alt="Автомобилна застраховка" class="activity-icon">
+                <h3>Автомобилна застраховка</h3>
+                <hr class="activitieshr"/>
+                <p class="p_activities">Застрахователна защита при частични щети или пълна загуба на МПС</p>
+                <div class="button2"><a href="carinsurance.html" class="button2" data-target="vmenu3" onclick="setTarget('vmenu3')">Повече...</a></div>
+            </div>
+            <div class="activities">
+                <img src="images/health_html.png"  alt="Здравна застраховка" class="activity-icon">
+                <h3>Здравна застраховка</h3>
+                <hr class="activitieshr"/>
+                <p class="p_activities">Застрахователна защита за здравето и благоденствието на хората</p>
+                <div class="button2"><a href="healthinsurance.html" class="button2" data-target="vmenu4" onclick="setTarget('vmenu4')">Повече...</a></div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="hsize">
+                <h2><img src="images/logoVA1.png" width="58" height="40" alt="Новини" /> Новини</h2>
+                <hr class="hr-short"/>
+            </div>
+            <div class="about"> <img src="images/News1.jpg" width = "180" height = "120" alt="За нас" class="imgleft"/>
+                <p class="pabout">През месец март 2023 година, Застрахователно дружество VA Insurance успешно разработи и внедри Система за управление на информационната сигурност, в съответствие с изискванията на стандарт ISO/IEC 27001:2013. Системата е сертифицирана от “Интертек”, акредитирано от UKAS-Великобритания. Сертификатът, удостоверява, че... </p>
+                <div class="row pxafter"><a href="news.html" class="button2">Прочети...</a></div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer1">
+                <p class="footerp"><b>Бързи връзки</b></p>
+                <hr class="hr-long"/>
+                <ul>
+                    <li>&#187;<a href="index.html" id="menu7"> Начало</a></li>
+                    <li>&#187;<a href="about.html" id="menu8"> За нас</a></li>
+                    <li>&#187;<a href="insurances.html" id="menu9"> Застраховки</a></li>
+                    <li>&#187;<a href="news.html" id="menu11"> Новини</a></li>
+                    <li>&#187;<a href="contacts.html" id="menu12"> Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer2">
+                <p class="footerp"><b>Контакт</b></p>
+                <hr class="hr-long"/> 
+                <address class="social-media">
+                    <i class="fa fa-lg fa-map-marker"></i>гр. Варна, ул. "Никола Вапцаров" 25<br>
+                    <i class="fa fa-lg fa-envelope"></i>office@vainsurance.com<br>
+                    <i class="fa fa-lg fa-phone"></i>+359 898 222222<br>
+                </address>
+                <p class="white">&copy; VA Insurance, 2023</p>
+            </div>
+            <div class="footer3">
+                <p class="footerp"><b>Последвайте ни в социалните мрежи</b></p>
+                <hr class="hr-long"/>
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/" class="fa fa-lg fa-facebook-f" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/" class="fa fa-lg fa-twitter" target="_blank">  Twitter</a></li>
+                    <li><a href="https://instagram.com/" class="fa fa-lg fa-instagram" target="_blank">  Instagram</a></li>
+                    <li><a href="https://bg.linkedin.com/" class="fa fa-lg fa-linkedin" target="_blank">  LinkedIn</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        
+        slideIndex++;
+        
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }    
+        
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 6000); 
+        }
+
+        function currentSlide(n) {
+            slideIndex = n;
+            showSlides();
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+        var dots = document.querySelectorAll(".dot");
+        var slides = document.querySelectorAll(".mySlides");
+
+        dots.forEach(function(dot, index) {
+            dot.addEventListener("click", function() {
+                
+                slides.forEach(function(slide) {
+                    slide.style.display = "none";
+                });
+
+                slides[index].style.display = "block";
+
+                dots.forEach(function(dot) {
+                    dot.classList.remove("active");
+                });
+
+                dot.classList.add("active");
+                });
+            });
+        });
+
+        function setTarget(target) {
+            localStorage.setItem("dataTarget", target);
+        }
+    </script>
+</body>
+</html>
